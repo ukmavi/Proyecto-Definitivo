@@ -36,11 +36,11 @@ ul, ol{
     position: absolute;
 }
 .nav-list{
-    width: 50%;
+    width: 80%;
     background-color: antiquewhite;
     position: absolute;
     top: 110%;
-    left: 25%;
+    left: 10%;
     height: 0;
     overflow: hidden;
     /* height: 500px; */
