@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+a {
+    text-decoration: none;
+}
+.header{
+    background-color: #E3AAAA;
+    position:relative;
+    z-index: 3;
+}
+.link:hover{
+    background-color: #742230;
+}
+ul, ol{
+    list-style: none;
+}
+.navbar{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0 2em;
+    z-index: 3;
+}
+.menu_hamburgesa{
+     display: none; 
+}
+.menu_hamburgesa:checked + .nav-list{
+    height: 500px;
+    position: absolute;
+}
+.nav-list{
+    width: 50%;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 110%;
+    left: 25%;
+    height: 0;
+    overflow: hidden;
+    /* height: 500px; */
+    flex-direction: column;
+    background-color: #E3AAAA;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    gap: 3rem;
+    font-weight: bold;
+    font-size: 1em;
+    border: 1px solid black;
+    transition: all .3s;
+}
+.link{
+    font-size: 2em;
+    color:  #FFD700;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.logo{
+    max-width: 7.5rem;
+}
+.list_icon{
+    color: white;
+    cursor: pointer;
+
+}
+@media (min-width: 768px){
+    .label_hamburgesa{
+        display: none;
+    }
+    .nav-list{
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 5.5rem;
+        border: none;
+        border-radius: 0px;
+    }
+    .link{
+        font-size: 1.5rem;
+        transition: all .3s
+    }
+    .link:hover{
+        background-color: #742230;
+    }
+}
+.contenedor_principal{
+    background-image: url(./images/fondo-yaneth.png);
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    color: black ;
+    font-size: 4em;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 10px solid #742230;
+    padding: 10px;
+    border-radius: 2rem;
+}
+.subtitulo_principal{
+    font-size: 2em;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.imagen_titulo img{
+    height: 80%;
+    width: 80%;
+    max-height: 500px;
+    max-width: 500px;
+    margin-top: 50px;
+    border: 5px solid black;
+}
+.titulo_subtitulo{
+    width: 50%;
+    height: auto;
+    float: left;
+    flex-direction: row;
+    max-height: 500px;
+    align-items: center;
+}
