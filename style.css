@@ -160,16 +160,15 @@ h1{
     }
     h1{
         margin-right: 50px;
-        font-size: 2em;
+        font-size: 1.9em;
     }
     .subtitulo_principal{
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-right: 50px;
         color:black;
         background-color: lightpink;
         border: 1px solid black;
         padding: 1rem;
-        margin-bottom:40px;
     }
     .imagen_titulo img{
         object-fit: cover;
