@@ -94,7 +94,7 @@ ul, ol{
 }
 .contenedor_principal{
     background-image: url(./images/fondo-yaneth.png);
-    height: 1000px;
+    height: 700px;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -127,6 +127,7 @@ h1{
     border: 5px solid black;
     margin-left: 50;
     max-width: 500px;
+    margin-bottom: 20px;
 }
 .titulo_subtitulo{
     width: 50%;
@@ -144,7 +145,7 @@ h1{
 
     }
     .subtitulo_principal{
-        font-size:2.5em ;
+        font-size:2.3em ;
     }
 }
 
@@ -178,4 +179,48 @@ h1{
         max-width: 70%;
         max-height: 35vh;
     }
+    }
+    .servicios_container{
+        background-color: #ffe0ee;
+        height: 2600px;
+        width: 100%;
+        padding-top: 50px;
+    }
+    .titulo h2{
+        align-items: center;
+        text-align: center;
+        border: 8px solid lightpink;
+        margin: 0 auto; 
+        width: 70%;
+        padding: 30px;
+        font-size: 1.8rem;
+        font-weight: bold;
+        background-color: white;
+
+    }
+    .servicios_cajas{
+        width: 100%;
+        margin: 0 auto;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items:center ;
+        justify-content: center;
+        gap: 30px;
+        background-color: #ffe0ee;
+    }
+    .caja_servicios{
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+    .servicios_cajas img{
+        width: 90%;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        margin: 25px;
+    }
+    .caja_servicios h3{
+        text-align: center;
+        margin: 50px auto;
     }
